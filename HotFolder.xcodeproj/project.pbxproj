@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1E8D1D25E0062C00A58383 /* XAPI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E8D1A25E0062C00A58383 /* XAPI.bundle */; };
+		0E1E8D2025E0066000A58383 /* FTLPTPIP.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E8D1825E0062C00A58383 /* FTLPTPIP.dylib */; };
+		0E1E8D2125E0066000A58383 /* FTLPTP.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1E8D1925E0062C00A58383 /* FTLPTP.dylib */; };
+		0E5AF4AD25F3A12000188BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AF4AB25F3A12000188BC1 /* Main.storyboard */; };
+		0E85A73D25C5CBBC005D4F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E85A73C25C5CBBC005D4F4B /* AppDelegate.swift */; };
+		0E85A74125C5CBBD005D4F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E85A74025C5CBBD005D4F4B /* Assets.xcassets */; };
+		0E85A74425C5CBBD005D4F4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E85A74325C5CBBD005D4F4B /* Preview Assets.xcassets */; };
+		0E9995AE25EE807900B187A1 /* XSDK.DAT in Resources */ = {isa = PBXBuildFile; fileRef = 0E9995AD25EE806800B187A1 /* XSDK.DAT */; };
+		0EDB88F625D17A790083CA91 /* xapi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0EDB88F525D17A790083CA91 /* xapi.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0EDB885225D15A920083CA91 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E1E8D1825E0062C00A58383 /* FTLPTPIP.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = FTLPTPIP.dylib; sourceTree = "<group>"; };
+		0E1E8D1925E0062C00A58383 /* FTLPTP.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = FTLPTP.dylib; sourceTree = "<group>"; };
+		0E1E8D1A25E0062C00A58383 /* XAPI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XAPI.bundle; sourceTree = "<group>"; };
+		0E5AF4AC25F3A12000188BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E85A73925C5CBBC005D4F4B /* HotFolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotFolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E85A73C25C5CBBC005D4F4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E85A74025C5CBBD005D4F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E85A74325C5CBBD005D4F4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E85A74825C5CBBD005D4F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E85A74925C5CBBD005D4F4B /* HotFolder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotFolder.entitlements; sourceTree = "<group>"; };
+		0E9995AD25EE806800B187A1 /* XSDK.DAT */ = {isa = PBXFileReference; lastKnownFileType = file; path = XSDK.DAT; sourceTree = "<group>"; };
+		0EDB88F525D17A790083CA91 /* xapi.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = xapi.mm; sourceTree = "<group>"; };
+		0EDB88FD25D17AAB0083CA91 /* xapi_mm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xapi_mm.h; sourceTree = "<group>"; };
+		0EDB898925D22A2B0083CA91 /* HotFolder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotFolder-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E85A73625C5CBBC005D4F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1E8D1725E0062C00A58383 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E1E8D1825E0062C00A58383 /* FTLPTPIP.dylib */,
+				0E1E8D1925E0062C00A58383 /* FTLPTP.dylib */,
+				0E9995AD25EE806800B187A1 /* XSDK.DAT */,
+				0E1E8D1A25E0062C00A58383 /* XAPI.bundle */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		0E85A73025C5CBBC005D4F4B = {
+			isa = PBXGroup;
+			children = (
+				0E1E8D1725E0062C00A58383 /* Resources */,
+				0E85A73B25C5CBBC005D4F4B /* HotFolder */,
+				0E85A73A25C5CBBC005D4F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E85A73A25C5CBBC005D4F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E85A73925C5CBBC005D4F4B /* HotFolder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E85A73B25C5CBBC005D4F4B /* HotFolder */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB88EC25D179680083CA91 /* cpp */,
+				0E85A73C25C5CBBC005D4F4B /* AppDelegate.swift */,
+				0E85A74025C5CBBD005D4F4B /* Assets.xcassets */,
+				0E5AF4AB25F3A12000188BC1 /* Main.storyboard */,
+				0E85A74925C5CBBD005D4F4B /* HotFolder.entitlements */,
+				0E85A74825C5CBBD005D4F4B /* Info.plist */,
+				0E85A74225C5CBBD005D4F4B /* Preview Content */,
+			);
+			path = HotFolder;
+			sourceTree = "<group>";
+		};
+		0E85A74225C5CBBD005D4F4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E85A74325C5CBBD005D4F4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EDB88EC25D179680083CA91 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				0EDB898925D22A2B0083CA91 /* HotFolder-Bridging-Header.h */,
+				0EDB88F525D17A790083CA91 /* xapi.mm */,
+				0EDB88FD25D17AAB0083CA91 /* xapi_mm.h */,
+			);
+			path = cpp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E85A73825C5CBBC005D4F4B /* HotFolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E85A76225C5CBBE005D4F4B /* Build configuration list for PBXNativeTarget "HotFolder" */;
+			buildPhases = (
+				0E85A73525C5CBBC005D4F4B /* Sources */,
+				0E85A73625C5CBBC005D4F4B /* Frameworks */,
+				0E85A73725C5CBBC005D4F4B /* Resources */,
+				0EDB885225D15A920083CA91 /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotFolder;
+			productName = HotFolder;
+			productReference = 0E85A73925C5CBBC005D4F4B /* HotFolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E85A73125C5CBBC005D4F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0E85A73825C5CBBC005D4F4B = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 0E85A73425C5CBBC005D4F4B /* Build configuration list for PBXProject "HotFolder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E85A73025C5CBBC005D4F4B;
+			productRefGroup = 0E85A73A25C5CBBC005D4F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E85A73825C5CBBC005D4F4B /* HotFolder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E85A73725C5CBBC005D4F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5AF4AD25F3A12000188BC1 /* Main.storyboard in Resources */,
+				0E9995AE25EE807900B187A1 /* XSDK.DAT in Resources */,
+				0E1E8D2025E0066000A58383 /* FTLPTPIP.dylib in Resources */,
+				0E1E8D2125E0066000A58383 /* FTLPTP.dylib in Resources */,
+				0E1E8D1D25E0062C00A58383 /* XAPI.bundle in Resources */,
+				0E85A74425C5CBBD005D4F4B /* Preview Assets.xcassets in Resources */,
+				0E85A74125C5CBBD005D4F4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E85A73525C5CBBC005D4F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EDB88F625D17A790083CA91 /* xapi.mm in Sources */,
+				0E85A73D25C5CBBC005D4F4B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E5AF4AB25F3A12000188BC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E5AF4AC25F3A12000188BC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E85A76025C5CBBE005D4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E85A76125C5CBBE005D4F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0E85A76325C5CBBE005D4F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HotFolder/HotFolder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"HotFolder/Preview Content\"";
+				DEVELOPMENT_TEAM = 96QCW3UYW7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HotFolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Resources",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.infomorph.HotFolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HotFolder/cpp/HotFolder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0E85A76425C5CBBE005D4F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HotFolder/HotFolder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_ASSET_PATHS = "\"HotFolder/Preview Content\"";
+				DEVELOPMENT_TEAM = 96QCW3UYW7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = HotFolder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Resources",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.infomorph.HotFolder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HotFolder/cpp/HotFolder-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E85A73425C5CBBC005D4F4B /* Build configuration list for PBXProject "HotFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E85A76025C5CBBE005D4F4B /* Debug */,
+				0E85A76125C5CBBE005D4F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E85A76225C5CBBE005D4F4B /* Build configuration list for PBXNativeTarget "HotFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E85A76325C5CBBE005D4F4B /* Debug */,
+				0E85A76425C5CBBE005D4F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E85A73125C5CBBC005D4F4B /* Project object */;
+}

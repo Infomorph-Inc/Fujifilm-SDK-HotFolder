@@ -1,0 +1,1 @@
+Copy XAPI.h in the SDK released from Fujifilm.
