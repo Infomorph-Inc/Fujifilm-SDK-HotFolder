@@ -18,7 +18,7 @@
    The images are transferred from the camera to a subfolder in the folder specified in step 2. The subfolder is generated with Coordinated Universal Time (UTC) name such as "20210422T150102Z" when you capture the first picture after camera connection.
 
 # How to build
-1. Download the ["FUJIFILM X Series/GFX System Digital Camera Control Software Development Kit"](https://fujifilm-x.com/special/camera-control-sdk/).
+1. Download the ["FUJIFILM X Series/GFX System Digital Camera Control Software Development Kit"](https://fujifilm-x.com/global/special/camera-control-sdk/).
 2. Copy "XAPI.H" file from the SDK to "/HotFolder/cpp/includes" folder.
 3. Copy "FTLPTP.dylib", "FTLPTPIP.dylib", "XSDK.DAT", and "XAPI.bundle" files/folders from the SDK to "/HotFolder/Resources" folder.
 4. Open the project file (HitFolder.xcodeproj) in Xcode 12.
